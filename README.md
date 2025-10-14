@@ -38,9 +38,8 @@ AI-powered meeting transcription and summarization application using Google Gemi
 git clone https://github.com/SmdFaraz/Meeting-Summarizer.git
 cd Meeting-Summarizer
 
-text
 
-### 2. Backend Setup
+2. Backend Setup
 
 Navigate to backend folder
 cd backend
@@ -73,7 +72,7 @@ text
 
 Get your free API key from: https://ai.google.dev/
 
-### 3. Frontend Setup
+3. Frontend Setup
 
 Open a **new terminal** and run:
 
@@ -96,9 +95,9 @@ VITE_API_URL=http://localhost:8000
 
 text
 
-## ▶️ Running the Application
+▶️ Running the Application
 
-### Start Backend Server
+ Start Backend Server
 
 **Terminal 1:**
 cd backend
@@ -140,7 +139,7 @@ Open your browser and go to: [**http://localhost:5173**](http://localhost:5173)
 **File Size:** Up to 2 GB  
 **Duration:** Up to 9.5 hours
 
-## 🎯 Usage
+ 🎯 Usage
 
 1. Click on the upload box or drag and drop your meeting audio/video file
 2. Click **"🚀 Start Processing"**
