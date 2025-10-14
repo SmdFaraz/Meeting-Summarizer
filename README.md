@@ -46,30 +46,35 @@ Open terminal Navigate to backend
 cd backend
 
 Create virtual environment
+
 python -m venv venv
 
 Activate virtual environment
+
 Windows:
+
 venv\Scripts\activate
 
 Mac/Linux:
+
 source venv/bin/activate
 
 Install dependencies
+
 pip install -r requirements.txt
 
 Create .env file
+
 notepad .env # Windows
 
 OR
+
 touch .env # Mac/Linux
 
-text
 
 **Add this to `.env` file:**
-GEMINI_API_KEY=your_gemini_api_key_here
 
-text
+GEMINI_API_KEY=your_gemini_api_key_here
 
 Get your free API key from: https://ai.google.dev/
 
@@ -78,23 +83,26 @@ Get your free API key from: https://ai.google.dev/
 Open a **new terminal** and run:
 
 Navigate to frontend folder
+
 cd frontend
 
 Install dependencies
+
 npm install
 
 Create .env file
+
 notepad .env # Windows
 
 OR
+
 touch .env # Mac/Linux
 
-text
 
 **Add this to `.env` file:**
+
 VITE_API_URL=http://localhost:8000
 
-text
 
 ▶️ Running the Application
 
@@ -106,7 +114,6 @@ venv\Scripts\activate # Windows
 source venv/bin/activate # Mac/Linux
 python main.py
 
-text
 
 Backend will run at: [**http://localhost:8000**](http://localhost:8000)
 
@@ -116,7 +123,6 @@ Backend will run at: [**http://localhost:8000**](http://localhost:8000)
 cd frontend
 npm run dev
 
-text
 
 Frontend will run at: [**http://localhost:5173**](http://localhost:5173)
 
