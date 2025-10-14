@@ -33,7 +33,7 @@ AI-powered meeting transcription and summarization application using Google Gemi
 
 ## 🚀 Local Installation & Setup
 
- 1. Clone the Repository
+ 1. Clone the Repository(In termnal)
 
 git clone https://github.com/SmdFaraz/Meeting-Summarizer.git
 cd Meeting-Summarizer
@@ -41,7 +41,8 @@ cd Meeting-Summarizer
 
 2. Backend Setup
 
-Navigate to backend folder
+Open terminal Navigate to backend 
+
 cd backend
 
 Create virtual environment
