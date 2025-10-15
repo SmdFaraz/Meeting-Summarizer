@@ -2,6 +2,8 @@
 
 AI-powered meeting transcription and summarization application using Google Gemini 2.0 Flash API.
 
+Download Demo_Video.mp4 to play it....
+
 ## ✨ Features
 
 - 🎧 Audio & Video Transcription
@@ -154,4 +156,3 @@ Open your browser and go to: [**http://localhost:5173**](http://localhost:5173)
 4. View results in **Transcript** and **Summary** tabs
 5. Download transcript and summary as text files
 
-## 📂 Project Structure
