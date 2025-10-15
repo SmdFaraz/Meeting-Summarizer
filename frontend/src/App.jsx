@@ -11,7 +11,7 @@ function App() {
   const [activeTab, setActiveTab] = useState('transcript')
   const [isDark, setIsDark] = useState(false)
 
-  const API_URL = 'http://localhost:8000'
+  const API_URL = import.meta.env.VITE_API_URL || window.location.origin.replace('5173', '8000')
 
   const handleFileChange = (e) => {
     setFile(e.target.files[0])
