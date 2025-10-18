@@ -301,3 +301,19 @@ body {
     flex-direction: column;
   }
 }
+
+.error-message {
+  background: #fee;
+  border: 1px solid #fcc;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-top: 16px;
+  color: #c33;
+  font-size: 14px;
+}
+
+.dark .error-message {
+  background: #422;
+  border-color: #844;
+  color: #faa;
+}
