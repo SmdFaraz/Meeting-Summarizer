@@ -256,7 +256,7 @@ function App() {
 
       {/* Footer */}
       <footer className="footer">
-        <p>Powered by Google Gemini AI 🤖</p>
+        <p>Audio File Summarizer Using AI🤖</p>
       </footer>
     </div>
   )
