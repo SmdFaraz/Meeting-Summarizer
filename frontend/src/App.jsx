@@ -183,11 +183,6 @@ function App() {
           )}
         </div>
       </main>
-
-      {/* Footer */}
-      <footer className="footer">
-        <p>Powered by Google Gemini AI • Built with React & FastAPI</p>
-      </footer>
     </div>
   )
 }
