@@ -156,3 +156,10 @@ Open your browser and go to: [**http://localhost:5173**](http://localhost:5173)
 4. View results in **Transcript** and **Summary** tabs
 5. Download transcript and summary as text files
 
+### 📌 Deployment Stack
+- **Frontend:** Vercel (React + Vite)
+- **Backend:** Render (FastAPI + Python)
+
+**Frontend:** [https://meeting-summarizer-henna.vercel.app/]
+
+**Backend API:** [https://meeting-summarizer-api-ushm.onrender.com]
