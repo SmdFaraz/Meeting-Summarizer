@@ -27,9 +27,7 @@ app = FastAPI(title="Meeting Summarizer API")
 # CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[  "https://meeting-summarizer.vercel.app",  # Your actual Vercel URL
-        "http://localhost:5173" #For Local Deployment
-        ],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
